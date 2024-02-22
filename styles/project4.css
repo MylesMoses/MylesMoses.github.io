@@ -48,7 +48,6 @@ article{
 }
 article h3{
     column-span: all;
-
 }
 article img{
     float: left;
@@ -60,4 +59,25 @@ article p::first-letter {
     font-weight: bold;
     font-style: italic;
     color: lightgreen;
+}
+aside {
+    width: 20%;
+    float: right;
+    background-color: #ffebc6;
+}
+footer {
+    clear: both;
+    border-top: 2px solid maroon;
+}
+footer p.copyright {
+    text-align: center;
+    font-size: 80%;
+}
+p.fixed {
+    width: auto;
+    position: fixed;
+    bottom: 35%;
+    right: 0;
+    border: 3px solid darkgreen;
+    background-color: lightgreen;
 }
