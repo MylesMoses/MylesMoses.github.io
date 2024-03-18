@@ -29,7 +29,13 @@ aside ul{
     list-style-type: square;
 }
 article{
+    clear: left;
     width: 75%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted blue;
+    column-gap: 2em;
+    margin-left: 2em;
 }
 article img{
     float: left;
