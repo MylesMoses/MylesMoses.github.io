@@ -53,3 +53,12 @@ body {
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
 }
+footer{
+    clear: both;
+    border-top: 2px solid magenta;
+    text-align: center;
+}
+footer p.copyright {
+    text-align: center;
+    font-size: 80%;
+}
