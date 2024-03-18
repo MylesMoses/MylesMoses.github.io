@@ -1,74 +1,54 @@
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    display: block;
-    color: white;
+#nav_menu ul { list-style-type: none; }
+#nav_menu ul li { float: left; }
+#nav_menu ul li a {
     text-align: center;
-    padding: 14px 16px;
+    display: block;
+    width: 175px;
+    padding: 1em 0;                           
     text-decoration: none;
-}
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid white; }
+#nav_menu ul li a.lastitem { border-right: none; }	
+#nav_menu ul li a.current { color: yellow; }
 
-nav ul li a:hover {
-    background-color: #111;
+article{
+    clear: left;
 }
-
-body {
-    width: 95%;
-    margin: 15px auto;
+article ol{
+    list-style-type:upper-roman;
 }
-
-article {
-    width: 75%;
-    float: left;
-}
-
-aside {
+aside{
     width: 20%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-color: #f1f1f1;
-    padding: 15px;
-    height: 100%;
-    overflow-y: auto;
+    float: right;
+    background-color: lightblue;
+    padding: 1em;
+    border: 3px solid darkblue;
+
 }
 
 aside ol {
     list-style-type: upper-roman;
 }
-
-aside ul {
+aside ul{
     list-style-type: square;
 }
-
-hr {
-    clear: both;
-    border: 1px solid #ccc;
-    margin: 20px 0;
+article p::first-letter {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
 }
-
-footer {
-    clear: both;
-    text-align: center;
-    padding-top: 20px;
-    border-top: 1px solid #ccc;
-}
-
-footer a {
-    text-decoration: none;
-    color: inherit;
-}
-
-footer a:hover {
-    text-decoration: underline;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-left: 10px;
+    width: 1000px;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
 }
