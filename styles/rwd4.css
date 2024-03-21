@@ -107,7 +107,7 @@ html, body {
         margin: auto;
         display: block;
         width: 100%;
-        max-width: 768px;
+        max-width: 500px;
     }
     footer {
         clear: both;
@@ -115,3 +115,4 @@ html, body {
         text-align: center;
         font-size: .8em;
     }
+    
