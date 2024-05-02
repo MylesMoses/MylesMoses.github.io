@@ -1,67 +1,94 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+/* Resetting default browser styles */
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
-    background-color: #333333; /* Dark grey */
-    color: #ffffff;
   }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark grey text color */
+    line-height: 1.6;
+  }
+  
   .container {
-    max-width: 1170px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
   }
+  
   header {
-    color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    background: var(--forest-green); /* Forest Green for the header background */
-    border-bottom: var(--burnt-orange) 3px solid;
+    background-color: #333; /* Dark header background */
+    color: #fff; /* White text color */
+    padding: 20px 0;
   }
-  header a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
+  
+  #branding h1 {
+    font-size: 28px;
   }
-  header ul {
-    padding: 0;
+  
+  nav ul {
     list-style: none;
   }
-  header ul li {
+  
+  nav ul li {
     display: inline;
-    padding: 0 20px 0 20px;
+    margin-right: 20px;
   }
-  header #branding {
-    float: left;
+  
+  nav ul li a {
+    color: #fff; /* White navigation links */
+    text-decoration: none;
+    font-size: 18px;
   }
-  header #branding h1 {
-    margin: 0;
+  
+  nav ul li a:hover {
+    color: #ccc; /* Light grey on hover */
   }
-  header nav {
-    float: right;
-    margin-top: 10px;
-  }
-  header .highlight, header .current a {
-    color: #e8491d;
-    font-weight: bold;
-  }
-  header a:hover {
-    color: #ffffff;
-    font-weight: bold;
-  }
-  :root {
-    --forest-green: rgb(0, 128, 75);
-    --burnt-orange: rgb(211, 123, 23);
-    --light-grey: #f4f4f4
-  }
-  .highlight, .current a {
-    color: var(--burnt-orange); /* Burnt Orange for highlighted text */
-  }
-  footer {
-    background: var(--forest-green);
-    color: #fff;
+  
+  #showcase {
+    background-image: url('images/dino_background.jpg'); /* Add your background image */
+    background-size: cover;
+    color: #fff; /* White text color */
+    padding: 100px 0;
     text-align: center;
-    padding: 10px 0;
+  }
+  
+  #showcase h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #main {
+    padding: 50px 0;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #services {
+    list-style: none;
+  }
+  
+  #services li {
+    margin-bottom: 40px;
+  }
+  
+  .dino-image {
+    max-width: 100%;
+  }
+  
+  .dark {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333; /* Dark footer background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px 0;
   }
